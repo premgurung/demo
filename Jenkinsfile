@@ -13,7 +13,7 @@ agent any
     post{
       always{
         
-      archiveArtifacts artifacts: '' .fingerprint: true
+      archiveArtifacts artifacts: '' , fingerprint: true
     
     }
     }
